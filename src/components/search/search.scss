@@ -1,0 +1,67 @@
+@import '../../styles/partials/variables';
+
+.search {
+
+    &__inner_form {
+      width: 100%;
+      margin-bottom: 17px;
+      border-radius: 40px;
+      border: 1px solid grey;
+    }
+
+    &__choices_inner{
+      width: 100%;
+      position: relative;
+    }
+
+    &__input{
+      min-height: 70px;
+      width: 100%;
+      background: 0 0;
+      border: 0;
+      background: #fff;
+      display: block;
+      width: 100%;
+      padding: 10px 70px 10px 32px;
+      font-size: 18px;
+      color: #666;
+      border-radius: 34px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      outline: none;
+      box-sizing: border-box;
+    }
+
+    &__btn {
+      width: 70px;
+      height: 70px;
+      display: flex;
+      align-items: center;
+      position: absolute;
+      right: 0;
+      top: 0;
+      height: 100%;
+      background: 0 0;
+      border: 0;
+      padding: 0;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: opacity .5s ease;
+
+      &:hover{
+        opacity: .6;
+      }
+
+      svg{
+        width: 35px;
+        height: 35px;
+      }
+
+      .path{
+        stroke: black;
+      }
+    }
+  }

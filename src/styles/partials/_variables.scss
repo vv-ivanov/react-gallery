@@ -1,0 +1,38 @@
+// Colors
+$body: 'Inconsolata', monospace;
+$big: 'Merriweather', serif;
+
+$white: #ffffff;
+$primary: #F2DAD7;
+$secondary: #D1A39E;
+$light: #CECDCA;
+$dark: #474545;
+
+$ease: all 0.3s ease-in-out;
+
+//responsive
+$desktop: 1280px;
+$landscape: 1024px;
+$tablet: 768px;
+$mobile: 640px;
+
+// Typography
+$font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family-serif:       Georgia, "Times New Roman", Times, serif !default;
+$font-family-monospace:   Monaco, Menlo, Consolas, "Courier New", monospace !default;
+$font-family-base:        $font-family-sans-serif !default;
+
+$font-size-base:          1rem !default; // Assumes the browser default, typically `16px`
+
+$line-height-base:        1.5 !default;
+
+$font-weight-light:       300 !default;
+$font-weight-normal:      400 !default;
+$font-weight-strong:      500 !default;
+$font-weight-bold:        700 !default;
+
+$font-weight-base:        $font-weight-normal !default;
+
+// Main Styles
+$body-bg:                 $white !default;
+$text-color:              $dark !default;

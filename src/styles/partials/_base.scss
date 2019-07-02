@@ -1,0 +1,10 @@
+body {
+  font-family: $body;
+  margin: 0;
+}
+
+.resizeable-both {
+  @include resizable(both);
+  border: 1px solid $gray-400;
+  display: block;
+}
