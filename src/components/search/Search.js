@@ -55,5 +55,6 @@ class Search extends Component {
 export default Search
 
 Search.propTypes = {
-    onAdd: PropTypes.func, //колбек при
+    onSubmit: PropTypes.func, //submit event
+    btnType: PropTypes.string, //меняет плейсхолдер если принимает 'btn_loader'
 };
